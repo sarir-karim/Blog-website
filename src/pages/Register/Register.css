@@ -1,0 +1,56 @@
+.Register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.5),
+  rgba(255, 255, 255, 0.5)
+  ),
+    url("https://images.pexels.com/photos/5208882/pexels-photo-5208882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
+
+.RegisterTitle{
+    font-size: 50px;
+}
+
+.RegisterForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.RegisterForm > label{
+    margin: 10px 0;
+}
+
+.RegisterInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+
+}
+
+
+.RegisterButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.RegisterLoginButton{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
